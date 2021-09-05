@@ -1,7 +1,6 @@
 import React from 'react'
 
 const HeroList = ({ item }) => {
-    console.log(item, "kkkkkkkk");
 
     return (
         <div className='card'>
