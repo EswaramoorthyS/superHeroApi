@@ -32,7 +32,6 @@ class Home extends Component {
         }
     }
     searchName = (name) => {
-        console.log(name, "nnnn")
         this.setState({ heroName: name },
             () => {
                 this.apiCall();
@@ -41,7 +40,6 @@ class Home extends Component {
     }
     render() {
         const { heroData, loader } = this.state;
-        console.log(heroData, "hhhh")
         return (
             <>
                 <div className='container'>
